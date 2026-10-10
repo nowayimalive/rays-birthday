@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #0d0f1a;
+    color: #f5eedc;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Outfit', system-ui, sans-serif;
+  }
+
+  .font-pixel {
+    font-family: 'Silkscreen', 'JetBrains Mono', monospace;
+  }
+
+  .font-mono-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.pixel-canvas {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.rpg-panel {
+  background-color: rgba(16, 19, 34, 0.96);
+  border: 2px solid #584b7a;
+  box-shadow: 0 0 0 2px #0d0f1a, 0 8px 24px rgba(0, 0, 0, 0.65);
+}
+
+.rpg-panel-gold {
+  background-color: rgba(20, 23, 40, 0.97);
+  border: 2px solid #f5b942;
+  box-shadow: 0 0 0 2px #0d0f1a, 0 8px 28px rgba(245, 185, 66, 0.2);
+}
+
+/* Custom subtle scrollbars for Journal & Letter */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #101322;
+}
+::-webkit-scrollbar-thumb {
+  background: #483d66;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f5b942;
+}
+

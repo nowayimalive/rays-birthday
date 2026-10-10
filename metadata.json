@@ -1,0 +1,6 @@
+{
+  "name": "The Little Thing We Left Behind",
+  "description": "A complete, playable pixel-art RPG adventure created by Allan for Raynio. Explore Somewhere Town, solve puzzles, collect six Memory Fragments and Secret Stars, and uncover the birthday surprise waiting at the end.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
